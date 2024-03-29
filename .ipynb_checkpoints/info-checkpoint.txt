@@ -1,0 +1,70 @@
+"""
+Community Graph Discovery
+    streamlit or react application
+    dockerize for jade deployment
+    data manipulation
+        database? polars? etc?
+        file types? arrow, parquet, etc?
+    modular design - analytic itself encapsulated within the container    
+
+
+Project Outline (POAM without)
+
+Software Architecture analysis and selection
+    Establish datatypes, inputs outs etc between software components ()
+    
+Requirements Elicitation
+
+
+(so that the application itself is modular, 
+just swap out app.py for new analytics)
+
+- MVP parameters
+- additional features
+- definition of done
+
+Quality attributes and metrics
+
+Software Design
+class, activity, state diagrams etc.
+
+    Analytic
+        Community Discovery
+        hyper-parameter tuning 
+            - edge weights etc
+            feature vector definitions
+        community categorization
+            - enriching data to accomplish this
+            
+        
+
+    Software features
+        algorithm selection
+        edge and node selection
+        feature vector manipulation
+            ability to input formula or relationships to create novel weighting on the fly
+            
+        community view
+            in isolation
+        interloquetor view
+    
+        
+
+edge and node manipulation 
+    - able to change between as well as some feature engineering
+    scalable, invertable edge and node weighting - combinable and scalable
+
+
+
+visualizations
+    pyvis
+
+UI
+    streamlit
+
+additional network plotting layouts
+    dual bipartite?
+    
+    
+
+"""
