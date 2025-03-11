@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  network-detection-app:
+    build: .
+    image: network-detection-app
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - NICEGUI_PORT=8501
+      - NICEGUI_HOST=0.0.0.0
+    restart: unless-stopped
